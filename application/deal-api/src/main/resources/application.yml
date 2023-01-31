@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/test?useSSL=false
+    username: root
+    password: password
+    driver-class-name: org.mariadb.jdbc.Driver
+#    jpa:
+#      show-sql: true
+#      hibernate:
+#        ddl-auto: create-drop
+#      generate-ddl: true
+#      properties:
+#        hibernate:
+#          dialect: org.hibernate.dialect.H2Dialect
+#          default_batch_fetch_size: 1000
+#        javax.persistence.validation.mode: none
+#      defer-datasource-initialization: true
+#      open-in-view: true
